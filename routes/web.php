@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
+    // Dispatch the jobs
+    \App\Jobs\TestSuccessJob::dispatch();
+    \App\Jobs\TestFailedJob::dispatch();
+
     return view('welcome');
 });
