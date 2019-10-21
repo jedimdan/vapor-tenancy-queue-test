@@ -7,10 +7,14 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/jedimdan/multi-tenant"
+    }],
     "require": {
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
-        "hyn/multi-tenant": "5.5.*",
+        "hyn/multi-tenant": "dev-855-queue-payload-lost",
         "laravel/framework": "^6.0",
         "laravel/telescope": "^2.1",
         "laravel/tinker": "^1.0",
