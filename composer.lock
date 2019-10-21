@@ -949,12 +949,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jedimdan/multi-tenant.git",
-                "reference": "630ed3bf9dd8aaf57c46548ef69024cbe8eccfd3"
+                "reference": "b51054abb48745fd79f19779d129cccd008d3980"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jedimdan/multi-tenant/zipball/630ed3bf9dd8aaf57c46548ef69024cbe8eccfd3",
-                "reference": "630ed3bf9dd8aaf57c46548ef69024cbe8eccfd3",
+                "url": "https://api.github.com/repos/jedimdan/multi-tenant/zipball/b51054abb48745fd79f19779d129cccd008d3980",
+                "reference": "b51054abb48745fd79f19779d129cccd008d3980",
                 "shasum": ""
             },
             "require": {
@@ -1023,7 +1023,7 @@
                 "source": "https://github.com/hyn/multi-tenant",
                 "docs": "https://laravel-tenancy.com"
             },
-            "time": "2019-10-21T09:12:27+00:00"
+            "time": "2019-10-21T09:35:14+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
