@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3645cdaf9de200f4e317669484b69b91",
+    "content-hash": "08758b36cca327b177126c79533efb64",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1449,16 +1449,16 @@
         },
         {
             "name": "laravel/vapor-core",
-            "version": "v2.1.0",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laravel/vapor-core.git",
-                "reference": "a4a3b58d14a034190dfb9fdd55f6f684afbe3d2e"
+                "url": "https://github.com/jedimdan/vapor-core.git",
+                "reference": "f5077a90f86f55dec0e6fd053f8dae2b151534dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/vapor-core/zipball/a4a3b58d14a034190dfb9fdd55f6f684afbe3d2e",
-                "reference": "a4a3b58d14a034190dfb9fdd55f6f684afbe3d2e",
+                "url": "https://api.github.com/repos/jedimdan/vapor-core/zipball/f5077a90f86f55dec0e6fd053f8dae2b151534dd",
+                "reference": "f5077a90f86f55dec0e6fd053f8dae2b151534dd",
                 "shasum": ""
             },
             "require": {
@@ -1497,7 +1497,16 @@
                     "Laravel\\Vapor\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Laravel\\Vapor\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -1513,7 +1522,10 @@
                 "laravel",
                 "vapor"
             ],
-            "time": "2019-10-10T13:27:54+00:00"
+            "support": {
+                "source": "https://github.com/jedimdan/vapor-core/tree/2.0"
+            },
+            "time": "2019-10-21T19:08:41+00:00"
         },
         {
             "name": "league/flysystem",
@@ -6404,7 +6416,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "hyn/multi-tenant": 20
+        "hyn/multi-tenant": 20,
+        "laravel/vapor-core": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
