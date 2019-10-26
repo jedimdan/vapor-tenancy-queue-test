@@ -9,7 +9,7 @@
     "license": "MIT",
     "repositories": [{
         "type": "vcs",
-        "url": "https://github.com/jedimdan/multi-tenant"
+        "url": "https://github.com/hyn/multi-tenant"
     }, {
         "type": "vcs",
         "url": "https://github.com/jedimdan/vapor-core"
@@ -17,7 +17,7 @@
     "require": {
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
-        "hyn/multi-tenant": "dev-855-queue-payload-lost",
+        "hyn/multi-tenant": "dev-aa/test-vapor",
         "laravel/framework": "^6.0",
         "laravel/telescope": "^2.1",
         "laravel/tinker": "^1.0",
@@ -39,9 +39,7 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": [
-                "hyn/multi-tenant"
-            ]
+            "dont-discover": []
         }
     },
     "autoload": {
@@ -59,7 +57,7 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": false,
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
